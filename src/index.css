@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,300;1,400;1,600;1,700&family=Poppins:wght@100;200;300&display=swap');
+
+body{
+    background-color: #f4f4f4;
+     color: black;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  h1{
+    padding: 5px;
+    margin: 10px;
+  }
+.Search{
+    width: 90%;
+    padding: 5px;
+    margin: 10px;
+}
+a{
+    text-decoration: none !important;
+    color: white;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.detail-container{
+    display: flex;
+    gap: 100px;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
+#icons{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    color: #f05a22;
+     gap: 20px;
+     height: 20px;
+     padding: 5px;
+     border-radius: 20px;
+     margin: auto;
+     width: 20%;
+}
+.detail-container img{
+    border-radius: 10px;
+}
+.details h3{
+    background-color: #f05a22;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+.details{
+    display: flex;
+    gap: 50px;
+ 
+
+}
+.idpage{
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.details_card{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.post-container{
+    background-color: white;
+    max-width: 250px;
+    min-height: 440px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    color: black;
+    line-height: 1.2;
+   
+
+}
+.post-container img{
+    text-align: center;
+   
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.outer-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+    
+}
+
+.header{
+    color: white;
+    background-color: #f05a22 ;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
